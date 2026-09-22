@@ -22,3 +22,19 @@ Luego fusionas con master:
 git checkout master //seleccionamos rama "master"
 git merge desarrollo //combinamos desarrollo -> master
 git push origin master //subimos
+
+git branch -d desarrollo //borramos branch si está mergeada cone l master. SI no, usaremos -D
+git push origin --delete desarrollo //borramos branch del hub
+
+
+
+Para añadir un archivo creado aqui en vs, primero commitea el archivo:
+
+git add howto.txt //el nombre que sea
+git commit -m "añadido howto.txt"
+git push origin master
+
+Luego crea la etiqueta:
+
+git tag v1.0
+git push origin v1.0
