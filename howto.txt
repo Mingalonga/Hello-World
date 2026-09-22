@@ -38,3 +38,7 @@ Luego crea la etiqueta:
 
 git tag v1.0
 git push origin v1.0
+
+
+git log 
+git log --oneline --graph --all
