@@ -40,5 +40,5 @@ git tag v1.0
 git push origin v1.0
 
 
-git log 
-git log --oneline --graph --all
+git log //q para salir
+git log --oneline --graph --all //para verlo mejor
