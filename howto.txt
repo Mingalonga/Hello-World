@@ -1,0 +1,24 @@
+
+git config --global --add safe.directory 'C:/Users/mañana/Documents/GitHub/Hello-World' //configurar el directorio como seguro (cambiar la ruta)
+git config --global user.email "tucorreo@ejemplo.com"
+git config --global user.name "Tu Nombre"
+
+
+cd ruta/de/tu/repositorio //la ruta del repo de git
+git checkout master //seleccionamos la rama master
+git checkout -b desarrollo // crea y la vez slecciona la nueva rama "desarrollo"
+git push origin desarrollo //Sube tu rama desarrollo local al repositorio remoto de GitHub.
+
+code // para editar en visual studio
+
+**editar**
+
+git add .  //añadimos TODO (.) para subir
+git commit -m "añadido index.html y styles.css" //subimos el contenido con el comentario correspondiente
+git push origin desarrollo //Sube tu rama desarrollo local al repositorio remoto de GitHub.
+
+Luego fusionas con master:
+
+git checkout master //seleccionamos rama "master"
+git merge desarrollo //combinamos desarrollo -> master
+git push origin master //subimos
